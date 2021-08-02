@@ -1,0 +1,51 @@
+fieldset{
+	width:25%;
+	margin:auto;
+	background:lightgray;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border:none;
+	border-radius:10%;
+	margin-bottom:2em;
+}
+
+div {
+	display:flex;
+	flex-direction:row;
+	width:50%;
+	align-items:center;
+}
+
+legend {
+	border:none;
+	background:white;
+}
+
+label{
+	text-decoration:underline;
+	text-align:center;
+	padding:1em;
+	cursor:pointer;
+}
+
+nav {
+	display:flex;
+	flex-direction:row;
+	flex:1;
+	padding:0.5em;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+}
+
+body {
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+
+button{
+	width:10%;
+}
